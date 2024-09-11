@@ -1,0 +1,66 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 20px auto auto 20px;
+	max-width: 1400px;
+}
+
+.form-items {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.input {
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.input, .button {
+	height: 35px;
+	cursor: pointer;
+	border: 1.5px solid #000;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.button {
+	font-size: 10px;
+	font-weight: bold;
+	width: 60px;
+	background-color: transparent;
+}
+
+.data, .distance {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+}
+
+.distance {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.table {
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1.5px solid #000;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+th, td {
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.icon {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
